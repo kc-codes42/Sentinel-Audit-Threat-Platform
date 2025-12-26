@@ -18,3 +18,11 @@ jwt:
 
 server:
   port: 8080
+
+gcp:
+  project-id: ${GCP_PROJECT_ID}
+  kms:
+    location: ${KMS_LOCATION:global}
+    key-ring: ${KMS_KEY_RING}
+    key-name: ${KMS_KEY_NAME}
+
